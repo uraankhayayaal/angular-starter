@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  angular:
+    image: registry.gitlab.com/uraankhayayaal/angular-starter:main
+    container_name: angular-starter
+    restart: always
+    ports:
+      - 8080:80
